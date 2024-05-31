@@ -102,9 +102,9 @@ h6 {
 }
 
 .page-wrapper {
-  width: 1440px;
+  width: 100%;
   height: auto;
-  margin: 0 auto;
+  background-color: rgba(246, 231, 198, 0.4666666667);
 }
 
 .header {
@@ -113,7 +113,7 @@ h6 {
           justify-content: space-between;
   width: inherit;
   height: 90px;
-  background-color: #F6E7C6;
+  background-color: #463632;
 }
 
 .header-logo {
@@ -121,15 +121,15 @@ h6 {
 }
 .header-logo a {
   font-family: "Martel";
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 32px;
-  color: #463632;
+  color: #F6E7C6;
   text-decoration: none;
 }
 .header-logo a:hover {
   font-weight: 700;
-  color: #81655e;
+  color: #f3f0eb;
 }
 
 .header-menu {
@@ -143,15 +143,15 @@ h6 {
 }
 .header-menu ul a {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 32px;
-  color: #463632;
+  color: #F6E7C6;
   text-decoration: none;
 }
 .header-menu ul a:hover {
   font-weight: 700;
-  color: #81655e;
+  color: #f3f0eb;
 }
 
 .burger-menu-icon {
@@ -173,7 +173,7 @@ h6 {
   height: 2px;
   width: 18px;
   position: absolute;
-  background: #013328;
+  background: #F6E7C6;
   margin: 0 auto;
 }
 
@@ -222,7 +222,7 @@ h6 {
   position: absolute;
   top: 90px;
   right: 0;
-  background-color: #FFFFFF;
+  background-color: #81655e;
   width: 280px;
   height: auto;
   right: -100%;
@@ -254,7 +254,7 @@ h6 {
 
 .burger-menu__item a {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 32px;
   color: #81655e;
@@ -279,13 +279,13 @@ h6 {
   color: #FFF;
 }
 
-.privacy-copyright, .contact-me__bottom-container, .contact-me_top, .partners-logos, .testimonials-slider_container, .about-me_bottom, .service-item, .services_container, .welcome {
+.privacy-copyright, .contact-me__bottom-container, .contact-me_top, .partners-logos, .testimonials-slider_container, .about-me_bottom, .service-item, .welcome {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.about-me_right li {
+.about-me_right li, .services_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,7 +294,7 @@ h6 {
           justify-content: center;
 }
 
-.fotter, .contact-me_left, .contact-me, .input-container {
+.fotter, .input-container_group, .contact-me_left, .contact-me, .input-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,7 +335,7 @@ h6 {
   font-weight: 900;
   font-style: normal;
   line-height: 65px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   width: 509px;
   margin-bottom: 35px;
@@ -346,7 +346,7 @@ h6 {
   font-weight: 500;
   font-style: normal;
   line-height: 30px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   text-align: center;
   color: #463632;
   width: 509px;
@@ -360,15 +360,15 @@ h6 {
   background-color: #81655e;
   border-radius: 37px;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0.2;
-  color: #F6E7C6;
+  letter-spacing: 1.2;
+  color: #faf9f8;
 }
 .brown-btn:hover {
-  background-color: #AC9C8C;
+  background-color: #463632;
 }
 
 .popup-wind {
@@ -455,18 +455,18 @@ h6 {
   font-weight: 600;
   font-style: normal;
   line-height: 32px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   text-align: center;
   color: #463632;
   margin-bottom: 25px;
 }
 .top-popup p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
 }
 
@@ -482,7 +482,7 @@ h6 {
   padding: 8px;
   border: 1px solid #AC9C8C;
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 .input-container input::-webkit-input-placeholder {
@@ -509,7 +509,7 @@ h6 {
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   margin-bottom: 10px;
 }
@@ -532,14 +532,14 @@ h6 {
   padding: 8px;
   border: 1px solid #AC9C8C;
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
 }
 .form-input::-webkit-input-placeholder {
@@ -566,14 +566,12 @@ h6 {
 .email-error,
 .role-error {
   font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 500;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
-  color: #81655e;
+  letter-spacing: 1.2;
   color: rgb(126, 7, 7);
-  margin-bottom: 5px;
 }
 
 .signup_user-agriment-custom {
@@ -581,11 +579,11 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
 }
 
@@ -717,27 +715,34 @@ h6 {
   background-color: #81655e;
   border-radius: 37px;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0.2;
-  color: #F6E7C6;
-  width: 588px;
+  letter-spacing: 1.2;
+  color: #faf9f8;
+  width: 585px;
   height: 48px;
   border-radius: 0;
-  margin: 30px auto;
+  margin: 0 auto 30px;
 }
 .signup-btn:hover {
-  background-color: #AC9C8C;
+  background-color: #463632;
 }
 
 .welcome-right {
   width: 650px;
   height: 373px;
   background-color: #F6E7C6;
-  margin-top: 80px;
+  margin: 80px 0 0 50px;
+  position: relative;
 }
+.welcome-right img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 .services {
   width: 1050px;
   margin: 0 195px 120px;
@@ -753,35 +758,37 @@ h6 {
   font-style: normal;
   text-align: center;
   line-height: 50px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   margin-bottom: 15px;
 }
 .services-top p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
 }
 
 .services_container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 1046px;
   margin: 0 auto 45px;
 }
 
 .service-item {
   width: 350px;
-  margin-right: 30px;
+  margin: 0 30px 30px 0;
   border-radius: 8px;
   padding: 15px;
-  background: rgba(246, 231, 198, 0.7960784314);
+  background: #463632;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.service-item:last-child {
+.service-item:nth-of-type(2), .service-item:nth-of-type(4), .service-item:nth-of-type(5) {
   margin-right: 0;
 }
 .service-item:hover {
@@ -802,21 +809,21 @@ h6 {
   font-weight: 500;
   font-style: normal;
   line-height: 30px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   text-align: center;
   color: #463632;
   margin-bottom: 15px;
-  color: #463632;
+  color: #faf9f8;
 }
 .service-content p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
-  color: #463632;
+  color: #faf9f8;
   font-weight: 400;
 }
 
@@ -836,17 +843,17 @@ h6 {
   font-weight: 900;
   font-style: normal;
   line-height: 65px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   margin-bottom: 30px;
 }
 .about-me_top p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
 }
 
@@ -864,27 +871,27 @@ h6 {
   font-style: normal;
   text-align: center;
   line-height: 50px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   margin-bottom: 25px;
 }
 .about-me_right p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   margin-bottom: 15px;
 }
 .about-me_right li {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -915,37 +922,58 @@ h6 {
   font-style: normal;
   text-align: center;
   line-height: 50px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   margin-bottom: 30px;
   color: #463632;
 }
 .testimonials-top p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   color: #463632;
 }
 
-.testimonials-sliders {
+.testimonials-slider {
   width: 1200px;
-  height: 300px;
+  min-height: 300px;
   margin: 30px;
 }
 
-.testimonials-slider {
-  width: 550px;
-  margin-right: 30px;
-  padding-bottom: 15px;
+.testimonials-slider .slick-prev,
+.testimonials-slider .slick-next {
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #463632;
+  border-radius: 12.5px;
+  background-color: #faf9f8;
+  z-index: 50;
+}
+
+.testimonials-slider .slick-prev:before,
+.testimonials-slider .slick-next:before {
+  color: #463632;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .testimonials-slider_container {
   width: 450px;
-  height: 228px;
+  min-height: 252px;
   padding: 15px 15px 15px 0;
   position: relative;
   background-color: #fff;
@@ -980,7 +1008,7 @@ h6 {
   font-weight: 600;
   font-style: normal;
   line-height: 32px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   text-align: center;
   color: #463632;
   color: #463632;
@@ -988,11 +1016,11 @@ h6 {
 }
 .testimonials-slider_text span {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   font-weight: 700;
   color: #463632;
@@ -1000,12 +1028,14 @@ h6 {
 }
 .testimonials-slider_text p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .testimonials-slider_pagination-container {
@@ -1051,18 +1081,18 @@ h6 {
   font-style: normal;
   text-align: center;
   line-height: 50px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   text-align: center;
   margin-bottom: 15px;
 }
 .partners-top p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   text-align: center;
   margin-bottom: 50px;
@@ -1107,18 +1137,18 @@ h6 {
   font-style: normal;
   text-align: center;
   line-height: 50px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   color: #F6E7C6;
   margin-bottom: 15px;
 }
 .contact-me_left p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   color: #F6E7C6;
 }
@@ -1136,20 +1166,28 @@ h6 {
 }
 
 .contact-me__bottom-container {
-  max-width: 980px;
+  height: 665px;
   margin: 0 auto;
   background-color: #fff;
   position: absolute;
   top: -120px;
-  left: 15%;
+  left: 180px;
 }
 
 .contact-me__bottom-img {
-  width: 364px;
+  width: 500px;
+  height: 665px;
   background-color: #AC9C8C;
+  position: relative;
 }
 .contact-me__bottom-img img {
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .contact-me_contact-form {
@@ -1174,7 +1212,11 @@ h6 {
 
 .input-container_group {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  height: 74px;
+}
+.input-container_group.textarea_input {
+  height: 168px;
 }
 
 .input-container__msg {
@@ -1185,11 +1227,11 @@ h6 {
   -webkit-transition: outline-color 500ms;
   transition: outline-color 500ms;
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #463632;
   overflow-y: auto; /* або scroll, в залежності від ваших потреб */
   scrollbar-width: thin; /* для Firefox */
@@ -1214,7 +1256,7 @@ h6 {
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   margin-bottom: 10px;
   position: absolute;
@@ -1248,11 +1290,11 @@ h6 {
 }
 .fotter-contacts__email a {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   color: #F6E7C6;
 }
@@ -1290,21 +1332,21 @@ h6 {
 }
 .privacy-copyright p {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   color: #F6E7C6;
 }
 .privacy-copyright a {
   font-family: "Open Sans";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.2;
+  letter-spacing: 1.2;
   color: #81655e;
   color: #F6E7C6;
 }
