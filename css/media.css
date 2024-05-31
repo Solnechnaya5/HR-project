@@ -23,10 +23,6 @@
 }
 @media( max-width: 1440px) {  
 
-.header {
-  height: calc(50px + (90 - 50)*((100vw - 320px) / (1920 - 320)));
-}
-
 .header-logo {
   margin-left: calc(15px + (195 - 15)*((100vw - 320px) / (1920 - 320)));
 }
@@ -332,6 +328,9 @@
   }
 }
 @media(max-width:1024px){ 
+  .header {
+    height: 50px;
+  }
   .header-menu{
     display: none;
   }

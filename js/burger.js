@@ -1,7 +1,9 @@
-$(document).ready(function() {
-    $('.burger-menu-icon').click(function() {
-        $('.burger-menu-icon').toggleClass('open-menu');
-        $('.burger-menu').toggleClass('open-menu');
-        $('body').toggleClass('fixed-page');
-    });
+const burgerMenuIcon = document.querySelector('.burger-menu-icon');
+const burgerMenu = document.querySelector('.burger-menu');
+const body = document.querySelector('body');
+
+burgerMenuIcon.addEventListener('click', function() {
+  burgerMenuIcon.classList.toggle('open-menu');
+  burgerMenu.classList.toggle('open-menu');
+  body.classList.toggle('fixed-page');
 });

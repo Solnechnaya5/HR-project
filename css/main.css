@@ -218,30 +218,25 @@ h6 {
 }
 
 .burger-menu {
-  display: none;
   position: absolute;
-  top: 90px;
+  top: 50px;
   right: 0;
-  background-color: #81655e;
+  background: #463632;
   width: 280px;
   height: auto;
   right: -100%;
-  -webkit-transition: all 0.8s ease;
-  transition: all 0.8s ease;
-  z-index: 70;
+  opacity: 0;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  z-index: 600;
+  padding: 20px 10px;
 }
 
 .burger-menu.open-menu {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   right: 0;
-  -webkit-transition: all 0.8s ease;
-  transition: all 0.8s ease;
+  opacity: 1;
 }
 
 .burger-menu__items {
@@ -257,12 +252,13 @@ h6 {
   font-size: 16px;
   font-weight: 600;
   line-height: 32px;
-  color: #81655e;
+  color: #faf9f8;
   text-decoration: none;
   margin-bottom: 30px;
 }
 .burger-menu__item a:hover {
   font-weight: 700;
+  color: #F6DBC6;
 }
 
 .burger-menu_button {
@@ -277,6 +273,10 @@ h6 {
 
 .burger-menu_button a {
   color: #FFF;
+}
+
+body.fixed-page {
+  overflow: hidden;
 }
 
 .privacy-copyright, .contact-me__bottom-container, .contact-me_top, .partners-logos, .testimonials-slider_container, .about-me_bottom, .service-item, .welcome {
