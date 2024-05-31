@@ -37,6 +37,8 @@
     width: inherit;
     height: 90px;
     background-color:$font-col3;
+    position: fixed;
+    z-index: 100;
 }
 
 .header-logo {

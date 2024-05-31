@@ -114,6 +114,8 @@ h6 {
   width: inherit;
   height: 90px;
   background-color: #463632;
+  position: fixed;
+  z-index: 100;
 }
 
 .header-logo {
