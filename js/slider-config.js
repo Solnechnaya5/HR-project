@@ -33,8 +33,8 @@ document.addEventListener( 'DOMContentLoaded', function() {
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 2,
-    // autoplay:true,
-    autoplaySpeed: 2500,
+    autoplay:true,
+    autoplaySpeed: 3500,
     responsive: [
       {
           breakpoint: 880,
